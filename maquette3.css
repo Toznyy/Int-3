@@ -1,0 +1,26 @@
+body {
+    padding:0;
+    margin:0;
+    background-color:#4455b3;
+    font-family : 'Arial', sans-serif;
+}
+main {
+    position:absolute;
+    top:5vh;
+    left:5vw;
+    background-color:#ffffff;
+    width:90vw;
+    height:90vh;
+    border-radius:10px;
+    box-shadow:3px 3px 1px #0e2872;
+}
+
+h1 {
+    text-align:center;
+    color:#0e2872;
+    font-size:1.5em;
+}
+
+input[type=radio]{
+    display:inline-block;
+}
