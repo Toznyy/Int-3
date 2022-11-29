@@ -1,21 +1,80 @@
+html {
+    scroll-behaviour:smooth;
+}
+
 body {
     padding:0;
     margin:0;
+    font-family: 'Open Sans', sans-serif;
+    width:100vw;
 }
 
 body > header {
     background-color:#d52a54;
     position:fixed;
     top:0;
+    left:0;
+    z-index: 1000;
 }
 
 nav {
     text-align:center;
     width:100vw;
-    display:block;
 }
 
 nav > ul li {
-
     list-style-type:none;
+    display:inline-block;
+    width: calc(100% / 6);
+}
+
+nav > ul > li a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+#accueil h2 {
+    font-size: 4em;
+    width: 80vw;
+    color: white;
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+}
+
+#accueil h3 {
+    font-size: 2.5em;
+    color: white;
+    position: absolute;
+    top: 65vh;
+    left: 10vw;
+    width: 80vw;
+}
+
+#accueil strong {
+    color: #d52a54;
+}
+
+#accueil{
+    background-image:url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/teacher.jpeg");
+    height:100vh;
+    width:calc(100vw - 15px);
+    background-size: cover;
+}
+
+#dev header {
+    background-image:url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/code.jpeg");
+}
+
+#design header {
+    background-image:url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/design.jpeg");
+}
+
+#gestion header {
+    background-image:url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/management.jpeg");
+}
+
+#agenda article header {
+    background-image:url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png");
+    background-repeat: no-repeat;
 }
