@@ -33,7 +33,7 @@ nav > ul > li a {
     text-decoration:none;
 }
 
-#accueil h2 {
+#accueil > h2 {
     font-size: 4em;
     width: 80vw;
     color: white;
@@ -60,6 +60,92 @@ nav > ul > li a {
     height:100vh;
     width:calc(100vw - 15px);
     background-size: cover;
+}
+
+#apropos > h2 {
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Bitter', serif;
+    position: absolute;
+    top: 108vh;
+    width: 100vw;
+}
+
+#apropos p {
+    width:35vw;
+    height: 25vh;
+}
+
+#apropos p a {
+    color:#d52a54;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#apropos p:first-of-type {
+    position: absolute;
+    top: 133vh;
+    left: 15vw;
+}
+
+#apropos p:nth-of-type(2) {
+    position: absolute;
+    top: 160vh;
+    left: 15vw;
+}
+
+#apropos p:nth-of-type(3) {
+    position: absolute;
+    top: 133vh;
+    left: 55vw;
+}
+
+#apropos p:nth-of-type(4) {
+    position: absolute;
+    top: 160vh;
+    left: 55vw;
+}
+
+#cours {
+    background-color: #0b6ccd;
+    width:calc(100vw - 15px);
+    height: 120vh;
+    position:relative;
+    top:100vh;
+}
+
+#cours > h2 {
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Bitter', serif;
+    position: relative;
+    top: 20vh;
+    width: 100vw;
+    color: white;
+}
+
+#cours article {
+    background-color: white;
+    width:25vw;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50vh;
+}
+
+#cours article header {
+    width:100%;
+    height: 15vh;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
 }
 
 #dev header {
